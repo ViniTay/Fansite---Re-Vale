@@ -1,0 +1,52 @@
+    .float-div{
+        float: left;  margin: 0;
+    }
+    .tab-imagem {
+        margin-left: 35px;
+    }
+
+    .detalhe-xiao {
+        height: 1em;
+        margin-right: 1em;
+        vertical-align: center;
+    }
+
+    ul {
+        margin-left: 400px;
+        margin-right: 400px;
+    }
+
+    p {
+        text-align: left;
+        font: arial;
+    }
+
+    .hist-xiao {
+        width: 100%;
+        margin: left 10px;
+        padding: 20px;
+        margin-top: -10px;
+    }
+
+    .body {
+        font: Verdana;
+        background-color: #008080;
+    }
+
+    .Char {
+        font-size: 200;
+        font: Verdana;
+        color: blue;
+    }
+
+    .character-header {
+        background-image: url(https://i.pinimg.com/originals/2b/76/48/2b7648e5089e276869c7d3709ac997ed.jpg);
+        content: "";
+        position: 30;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-position: 55% 22%;
+        z-index: 1;
+    }
