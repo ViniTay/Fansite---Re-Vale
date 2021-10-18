@@ -1,0 +1,29 @@
+* {
+    margin     : 0;
+    padding    : 0;
+    box-sizing : border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-gallery {
+    width          : 100%;
+    min-height     : 100vh;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    padding        : 50px 8%;
+    margin-top     : -8vh;
+    background     : rgb(2, 0, 36);
+    background     : radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(145, 1, 152, 1) 21%, rgba(111, 51, 176, 1) 32%, rgba(130, 22, 162, 1) 40%, rgba(87, 85, 193, 1) 59%, rgba(0, 212, 255, 1) 85%);
+}
+
+.gallery {
+    display              : grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap             : 30px;
+
+}
+
+.gallery img {
+    width: 100%;
+}

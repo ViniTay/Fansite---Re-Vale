@@ -1,0 +1,29 @@
+.container {
+    position     : relative;
+    width        : 50%;
+    margin-left  : 180px;
+    margin-top   : 40px;
+    margin-bottom: 30px;
+}
+
+.container-yuki {
+    position     : relative;
+    width        : 40%;
+    margin-left  : 280px;
+    margin-top   : 40px;
+    margin-bottom: 30px;
+}
+
+.image {
+    display      : block;
+    width        : 100%;
+    height       : auto;
+    border-radius: 50%;
+}
+
+.image-yuki {
+    display      : block;
+    width        : 100%;
+    height       : auto;
+    border-radius: 50%;
+}
